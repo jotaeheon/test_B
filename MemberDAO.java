@@ -1,12 +1,11 @@
 class MemberDAO
 {
-	public int insert(){
-	system.out.println("µî·ÏÇÏ¿´½À´Ï´Ù");
-	return 1;
+	public void insert(){
+	system.out.println("OK");
 	}
 
 	public int update() {
-		System.out.println("¼öÁ¤ÇÏ¿´½À´Ï´Ù.");
+		System.out.println("ìˆ˜ì •í•˜ì˜€ìŠµë‹ˆë‹¤.");
 		return 1;
 	}
 }
